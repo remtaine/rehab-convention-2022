@@ -9,7 +9,7 @@ export default function Home() {
         src={frontImage}
         alt="road"
         layout="fill"
-        // objectFit="cover"
+        objectFit="cover"
         quality={100}
       />
       <div className="flex items-center justify-end lg:justify-center z-50 fixed bottom-0 w-screen">
