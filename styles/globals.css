@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+  .test {
+    @apply outline-1 outline-dashed outline-red-600;
+  }
   main > div {
     /* background-color: red; */
   }

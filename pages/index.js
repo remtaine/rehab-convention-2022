@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Navbar from "../components/Navbar";
-import frontImage from "../public/roadMockup.jpg";
+import frontImage from "../public/frontImage/road.svg";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="font-inter">
       <Image
         src={frontImage}
         alt="road"
@@ -12,9 +12,7 @@ export default function Home() {
         objectFit="cover"
         quality={100}
       />
-      <div className="flex items-center justify-end lg:justify-center z-50 fixed bottom-0 w-screen">
-        <Navbar />
-      </div>
+      <Navbar />
     </div>
   );
 }
