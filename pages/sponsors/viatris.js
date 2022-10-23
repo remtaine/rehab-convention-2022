@@ -1,46 +1,21 @@
 import React from "react";
-import Image from "next/image";
 import PropTypes from "prop-types";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
+import Image from "next/image";
 import Link from "next/link";
-
-// TODO transfer to Header.js
-import headerImage from "../../public/header.jpg";
-import rehabLogo from "../../public/header.jpg";
 
 // TODO transfer to VirtualBooth.js
 import virtualBoothImage from "../../public/virtual_booth_mockup.jpg";
 
 // TODO transfer to SponsorCloud.js
 import logoBTL from "../../public/BTL_TECHNICAL_small.png";
+import Header from "../../components/Header";
 
 function viatris(props) {
   return (
     <div className="min-h-screen ">
-      <header id="top" className="w-full overflow-hidden relative z-20">
-        <div className="lg:block hidden h-80 ">
-          <Image
-            src={headerImage}
-            alt="header"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            className="lg:block hidden"
-          />
-        </div>
-        <div className="lg:hidden h-12 bg-fem-700">
-          {/* <Image
-            src={headerImage}
-            alt="header"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            className="lg:block hidden"
-          /> */}
-        </div>
-      </header>
-
+      <Header />
       <main className="bg-fem-200 lg:min-h-[calc(100vh-18rem)] min-h-[calc(100vh-10rem)] shadow-inner flex items-center justify-center">
         <section className="max-w-[1000px] my-20 p-4 flex flex-col items-center justify-center">
           {/* TODO transfer component virtual booth */}
