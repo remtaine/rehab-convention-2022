@@ -19,7 +19,7 @@ export default function Home() {
         quality={100}
       /> */}
       {/* <embed src={frontImage} /> */}
-      <div className=" w-screen h-screen">
+      <div className="w-screen h-screen">
         <FrontImage style={imageStyle} />
       </div>
       <Navbar />
