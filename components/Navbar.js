@@ -56,7 +56,7 @@ function Navbar() {
           <NavbarButton title="Tests">
             <PencilIcon className="h-10 w-10" />
           </NavbarButton>
-          <NavbarButton title="Sponsors" link="/sponsors/viatris">
+          <NavbarButton title="Sponsors" link="/sponsors">
             <UserGroupIcon className="h-10 w-10" />
           </NavbarButton>
           <NavbarButton title="Program">
