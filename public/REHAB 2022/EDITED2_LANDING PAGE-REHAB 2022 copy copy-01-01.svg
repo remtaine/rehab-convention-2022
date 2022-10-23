@@ -1290,7 +1290,7 @@
 			<path d="m442.25 531.03 4.16-11.264c0.688-1.867-0.475-2.555-2.588-1.526l-16.083 7.813c-2.112 1.026-5.563 2.704-7.677 3.731l-16.084 7.813c-2.11 1.027-2.167 2.815-0.131 3.977l15.545 8.844c2.043 1.16 5.379 3.057 7.421 4.217l15.541 8.844c2.044 1.157 3.249 0.548 2.683-1.357l-4.182-11.523c-0.564-1.906 1.785-3.388 4.29-3.308l35.655 1.155c2.508 0.079 4.611-1.447 4.674-3.396l0.184-5.633c0.062-1.947-1.936-3.611-4.445-3.692" fill="#fff"/>
 		
 		
-			<image transform="matrix(.3123 .0076 -.0076 .3123 287.27 389.34)" width="1144" height="472" enable-background="new    " overflow="visible" xlink:href="../webinar.png">
+			<image transform="rotate(1.45 -15345.807 11516.806) scale(.3124)" width="1144" height="472" enable-background="new    " overflow="visible" xlink:href="../webinar.png">
 		</image>
 	
 	
@@ -1748,7 +1748,7 @@
 		
 		<path d="m369.78 791.28c-0.714 0.049-1.729 0.479-1.882 1.107-0.225 0.926 1.218 0.924 2.036 1.182 5.287 1.667 6.287 3.631 6.061 7.878-0.14 2.633-1.188 3.649-0.544 3.656 0.764 8e-3 2.371-3.09 2.371-6.71 0-1.188-1.285-3.674-2.262-4.554-1.309-1.175-3.679-2.7-5.78-2.559" enable-background="new    " fill="#fff" opacity=".5"/>
 		
-			<image transform="matrix(.2274 -.0074 .0074 .2274 143.93 844.36)" width="1144" height="472" enable-background="new    " overflow="visible" xlink:href="../programs.png">
+			<image transform="rotate(-1.699 28613.48 -4373.302) scale(.2275)" width="1144" height="472" enable-background="new    " overflow="visible" xlink:href="../programs.png">
 		</image>
 	
 	<polygon points="1348.4 1002.8 1316.7 1021.3 1435.7 1108.4 1485.9 1102.9" fill="#CE8F74"/>
