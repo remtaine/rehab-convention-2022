@@ -14,7 +14,7 @@ export default function Document() {
           crossOrigin="anonymous"
         ></Script> */}
       </Head>
-      <body>
+      <body className="selection:bg-fem-600 selection:text-fem-700 font-inter">
         <Main />
         <NextScript />
       </body>
