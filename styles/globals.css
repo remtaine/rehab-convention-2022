@@ -7,7 +7,10 @@
     @apply outline-1 outline-dashed outline-red-600;
   }
 
-  /* .EDITED2_LANDING_PAGE-REHAB_2022_copy_copy-01-01_svg__hoverFrontImage {
-    @apply hover:scale-125 duration-300;
+  /* .EDITED2_LANDING_PAGE-REHAB_2022_copy_copy-01-01_svg__hoverFrontImage:hover {
+    @apply scale-125 duration-300;
+  }
+  .hoverFrontImage:hover {
+    @apply scale-125 duration-300;
   } */
 }
