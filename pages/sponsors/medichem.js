@@ -2,13 +2,13 @@ import React from "react";
 import LayoutSponsors from "../../components/layouts/LayoutSponsors";
 import VirtualBooth from "../../components/VirtualBooth";
 
-function viatris(props) {
+function medichem(props) {
   return (
     <LayoutSponsors>
       {/* TODO make props for virtual booth image */}
-      <VirtualBooth title="Viatris" />
+      <VirtualBooth title="Medichem" />
     </LayoutSponsors>
   );
 }
 
-export default viatris;
+export default medichem;

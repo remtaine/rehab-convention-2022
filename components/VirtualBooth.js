@@ -9,7 +9,9 @@ function VirtualBooth(props) {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="max-w-screen mx-8 relative ">
-        <h1 className="my-2 text-5xl font-semibold text-center">Viatris</h1>
+        <h1 className="my-2 text-5xl font-semibold text-center">
+          {props.title}
+        </h1>
         <Image
           src={virtualBoothImage}
           alt="header"
@@ -31,10 +33,12 @@ function VirtualBooth(props) {
           Register for this booth
         </a>
       </Link>
+      {/* TAKE NOTE THIS IS A DIVIDER!!! */}
+      <div className="w-full h-[0.05rem] bg-fem-600/10 md:mx-40 my-8"></div>
     </div>
   );
 }
 
-VirtualBooth.propTypes = {};
+VirtualBooth.defaultProps = { title: "Viatris" };
 
 export default VirtualBooth;
