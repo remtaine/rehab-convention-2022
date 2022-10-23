@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import headerImage from "/public/Header.png";
-import rehabLogo from "/public/Header.jpg";
+// import rehabLogo from "/public/Header.jpg";
 
 function Header() {
   return (
