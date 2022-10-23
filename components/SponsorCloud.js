@@ -21,16 +21,40 @@ function SponsorCloud() {
       <h2 className="w-full portrait:text-3xl text-6xl font-light landscape:col-span-3 text-center">
         Our Sponsors
       </h2>
-      <SponsorCloudItem logo={logoBTL} title="BTL" link="btl" />
-      <SponsorCloudItem logo={logoConjug8} title="Conjug8" link="conjug8" />
-      <SponsorCloudItem logo={logoHiEsai} title="Hi Esai" link="hiesai" />
-      <SponsorCloudItem logo={logoInova} title="Inova" link="inova" />
-      <SponsorCloudItem logo={logoJCS} title="JCS" link="jcs" />
-      <SponsorCloudItem logo={logoMedichem} title="Medichem" link="medichem" />
-      <SponsorCloudItem logo={logoTaisho} title="Taisho" link="taisho" />
-      <SponsorCloudItem logo={logoTobie} title="Tobie" link="tobie" />
-      <SponsorCloudItem logo={logoUnilab} title="Unilab" link="unilab" />
-      <SponsorCloudItem logo={logoViatris} title="Viatris" link="viatris" />
+      <SponsorCloudItem logo={logoBTL} title="BTL" link="/sponsors/btl" />
+      <SponsorCloudItem
+        logo={logoConjug8}
+        title="Conjug8"
+        link="/sponsors/conjug8"
+      />
+      <SponsorCloudItem
+        logo={logoHiEsai}
+        title="Hi Esai"
+        link="/sponsors/hiesai"
+      />
+      <SponsorCloudItem logo={logoInova} title="Inova" link="/sponsors/inova" />
+      <SponsorCloudItem logo={logoJCS} title="JCS" link="/sponsors/jcs" />
+      <SponsorCloudItem
+        logo={logoMedichem}
+        title="Medichem"
+        link="/sponsors/medichem"
+      />
+      <SponsorCloudItem
+        logo={logoTaisho}
+        title="Taisho"
+        link="/sponsors/taisho"
+      />
+      <SponsorCloudItem logo={logoTobie} title="Tobie" link="/sponsors/tobie" />
+      <SponsorCloudItem
+        logo={logoUnilab}
+        title="Unilab"
+        link="/sponsors/unilab"
+      />
+      <SponsorCloudItem
+        logo={logoViatris}
+        title="Viatris"
+        link="/sponsors/viatris"
+      />
     </div>
   );
 }
