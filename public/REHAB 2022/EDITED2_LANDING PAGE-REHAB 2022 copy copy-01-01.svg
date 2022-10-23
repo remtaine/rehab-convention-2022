@@ -146,7 +146,7 @@
 			</g>
 		</g>
 		
-			<image overflow="visible" enable-background="new    " width="1500" height="1500" id="JCS_LOGO" xlink:href="../JCS_MINOR_small.png"  transform="matrix(0.0538 0 0 0.0538 1519.8105 71.9507)">
+			<image overflow="visible" enable-background="new    " width="1500" height="1500" id="JCS_LOGO" xlink:href="../JCS_MINOR_small.png"  transform="translate(1524 81.95) scale(.04)">
 		</image>
 		
 			<image overflow="visible" enable-background="new    " width="4022" height="1074" id="MEDICHEM_LOGO" xlink:href="../Medichem_TECHNICAL_small.png"  transform="matrix(0.0258 0 0 0.0258 1741.5479 154.4985)">
