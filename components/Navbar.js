@@ -18,15 +18,15 @@ import NavbarButton from "./ui/NavbarButton";
 function Navbar() {
   const [isMenuActivated, setMenuActivated] = useState(false);
   return (
-    <div className="flex items-center justify-end landscape:justify-center z-50 fixed bottom-0 w-screen">
-      <div className="landscape:bg-fem-300  w-fit p-4 rounded-tl-lg rounded-tr-lg landscape:h-16 landscape:shadow-xl flex landscape:flex-row flex-col-reverse ">
+    <div className="flex items-center justify-end landscape:justify-center z-50 fixed bottom-0 w-screen pointer-events-none">
+      <div className="landscape:bg-fem-300  w-fit p-4 rounded-tl-lg rounded-tr-lg landscape:h-16 landscape:shadow-xl flex landscape:flex-row flex-col-reverse pointer-events-auto">
         <button
           className="landscape:hidden "
           onClick={() => {
             setMenuActivated(!isMenuActivated);
           }}
         >
-          <div className="mb-1 mr-1 flex flex-col justify-center items-center h-fit w-fit groupx">
+          <div className="mb-1 mr-1 flex flex-col justify-center items-center h-fit w-fit">
             <div
               className={
                 "w-16 h-16 flex items-center justify-center shadow-sm duration-300" +
