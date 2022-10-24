@@ -18,7 +18,7 @@ import logoViatris from "/public/Viatris_Socials_small.png";
 function SponsorCloud() {
   return (
     <div className="grid portrait:grid-cols-1 grid-cols-3 gap-4">
-      <h2 className="w-full portrait:text-3xl text-6xl font-light landscape:col-span-3 text-center">
+      <h2 className="w-full portrait:text-4xl text-5xl font-semibold landscape:col-span-3 text-center">
         Our Sponsors
       </h2>
       <SponsorCloudItem logo={logoBTL} title="BTL" link="/sponsors/btl" />
