@@ -1,0 +1,10 @@
+.EDITED2_LANDING_PAGE-REHAB_2022_copy_copy-01-01_svg__clickable {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.EDITED2_LANDING_PAGE-REHAB_2022_copy_copy-01-01_svg__clickable:hover {
+  transform: translateY(-10px);
+  /* transform: scale(1.01, 1.01); */
+  /* outline: 5px dotted green; */
+}
