@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 // import FrontImage from "../components/FrontImage";
 import Navbar from "../components/Navbar";
 import FrontImage from "/public/REHAB 2022/EDITED2_LANDING PAGE-REHAB 2022 copy copy-01-01.svg";
@@ -10,15 +11,12 @@ export default function Home() {
     height: "inherit",
   };
   return (
-    <div className="font-inter min-h-screen">
-      {/* <Image
-        src={frontImage}
-        alt="road"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-      /> */}
-      {/* <embed src={frontImage} /> */}
+    <div className="font-inter min-h-screen bg-[#72C4BB]">
+      <Head>
+        <title>22nd PGH Rehab Postgrad</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       <div className="w-screen h-screen">
         <FrontImage style={imageStyle} />
       </div>

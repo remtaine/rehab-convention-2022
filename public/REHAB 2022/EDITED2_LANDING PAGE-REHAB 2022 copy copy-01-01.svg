@@ -11,8 +11,8 @@
 	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
 ]>
 <svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="px" y="0px"
-	 viewBox="0 0 1920 1080"  preserveAspectRatio="xMidYMid slice"  enable-background="new 0 0 1920 1080" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="44 0 1876 1080"  preserveAspectRatio="xMidYMid slice"  enable-background="new 0 0 1920 1080" xml:space="preserve">
 <metadata>
 	<sfw  xmlns="&ns_sfw;">
 		<slices></slices>
@@ -173,7 +173,7 @@
 			<image overflow="visible" enable-background="new    " width="1275" height="595" id="BTL_LOGO" xlink:href="../BTL_TECHNICAL_small.png"  transform="matrix(0.0487 0 0 0.0487 1534.1973 154.1587)">
 		</image>
 	</g>
-	<g id="BILLBOARD_-_LEFT">
+	<g id="BILLBOARD_-_LEFT" transform="translate(25, 0)">
 		<g>
 			<rect x="43.929" y="53.202" fill="#B3B3B3" width="360.331" height="154.072"/>
 			<rect x="55.025" y="61.827" fill="#808080" width="338.138" height="136.824"/>
@@ -1410,7 +1410,6 @@
 		</g>
 	</g>
 	<!-- TODO insert new link -->
-	<a xlink:href="/sponsors" class="clickable">
 		<g id="Virtual_Booth_Sign">
 			<g id="road_sign_stand_right_2">
 		
@@ -1480,7 +1479,8 @@
 				</linearGradient>
 				<path fill="url(#SVGID_45_)" d="M1684.216,679.82l-8.815-1.57l-0.219,1.207c0,0-3.359,0.643-16.912-0.215l0.009-0.853
 					l-8.859,1.076c0,0,4.052,1.25,17.498,1.388C1680.359,680.992,1684.216,679.82,1684.216,679.82z"/>
-			</g>
+			</g> 
+			<!-- top is rightmost -->
 			<g id="road_sign_stand_right">
 		
 					<linearGradient id="SVGID_46_" gradientUnits="userSpaceOnUse" x1="795.0244" y1="939.583" x2="812.5219" y2="939.8164" gradientTransform="matrix(1 0.0102 0.0064 -0.6325 560.1756 1204.2368)">
@@ -1546,6 +1546,7 @@
 				<path fill="url(#SVGID_50_)" d="M1390.974,766.31l-10.339-2.095l-0.257,1.623c0,0-3.94,0.867-19.836-0.258l0.011-1.146
 					l-10.393,1.459c0,0,4.753,1.677,20.52,1.838C1386.446,767.89,1390.974,766.31,1390.974,766.31z"/>
 			</g>
+	<a xlink:href="/sponsors" class="clickable">
 			<g id="Zoomable_2_">
 		
 					<linearGradient id="green_rect_2_" gradientUnits="userSpaceOnUse" x1="817.9609" y1="942.3672" x2="982.4417" y2="657.4783" gradientTransform="matrix(-1 0 0 -1 2406.4258 1315)">
@@ -1566,13 +1567,12 @@
 					c0.701-2.318-1.291-4.118-4.423-3.996l-44.59,1.729c-3.137,0.121-5.767-1.713-5.851-4.076l-0.24-6.836
 					c-0.084-2.363,2.413-4.399,5.552-4.521"/>
 			</g>
-		
 				<image overflow="visible" enable-background="new    " width="1144" height="472" id="virtual_booth_text" xlink:href="../Virtual booth.png"  transform="matrix(0.3157 -0.0087 0.0089 0.3236 1336.0361 420.0962)">
 			</image>
-		</g>
 	</a>
+		
+		</g>
 	<!-- TODO insert new link -->
-	<a xlink:href="/webinar" class="clickable">
 		<g id="Webinar_Sign">
 			<g id="road_sign_stand_left_2">
 		
@@ -1702,6 +1702,7 @@
 				<path fill="url(#SVGID_60_)" d="M346.791,687.48l-10.521-1.643c0,0,0,0-13.651,0.535l-3.795-0.186l-5.981,1.291
 					c0,0,1.106,1.343,14.808,1.343C341.352,688.822,346.791,687.48,346.791,687.48z"/>
 			</g>
+	<a xlink:href="/webinar" class="clickable">
 			<g id="Zoomable_1_">
 		
 					<linearGradient id="green_rect_3_" gradientUnits="userSpaceOnUse" x1="-186.2222" y1="952.6475" x2="7.3209" y2="687.7003" gradientTransform="matrix(1 0 0 -1 564 1315)">
@@ -1725,8 +1726,8 @@
 		
 				<image overflow="visible" enable-background="new    " width="1144" height="472" xlink:href="../webinar.png"  transform="rotate(1.45 -15345.807 11516.806) scale(.3124)" >
 			</image>
-		</g>
 	</a>
+		</g>
 	<g id="Pedestrian">
 		
 			<linearGradient id="SVGID_61_" gradientUnits="userSpaceOnUse" x1="416" y1="447.2944" x2="435" y2="447.2944" gradientTransform="matrix(1 0 0 -1 564 1315)">
@@ -1989,6 +1990,8 @@
 				<image overflow="visible" enable-background="new    " width="26" height="451" xlink:href="223229A87FBAB6C6.png"  transform="matrix(1 0 0 1 1595 668)">
 			</image>
 		</g>
+			<!-- included in posttest -->
+		<a xlink:href="/tests/posttest" class="clickable">
 		<g id="sign_under">
 			
 				<radialGradient id="SVGID_86_" cx="1157.6602" cy="423.6025" r="119.3971" gradientTransform="matrix(1.2515 0 0 -1.2601 168.5491 1401.0791)" gradientUnits="userSpaceOnUse">
@@ -2005,10 +2008,19 @@
 					z M1430.971,841.554c-5.193,0-9.422,4.263-9.422,9.497v32.487c0,5.235,4.229,9.494,9.422,9.494h339.338l33.875-28.358
 					l-33.875-23.12H1430.971L1430.971,841.554z"/>
 			</g>
-		</g>
-		<g id="sign_upper">
+			<!-- TODO insert new link -->
+			<g id="Post-test_text">
 			
-				<radialGradient id="SVGID_87_" cx="1142.0723" cy="506.3945" r="119.3966" gradientTransform="matrix(1.2515 0 0 -1.2601 168.5491 1401.0791)" gradientUnits="userSpaceOnUse">
+					<image overflow="visible" enable-background="new    " width="1144" height="472" xlink:href="../post-test.png"  transform="matrix(0.2386 0 0 0.2402 1468.8867 812.1162)">
+				</image>
+			</g>
+		</g>
+		</a>
+
+			<!-- included in pretest -->
+		<a xlink:href="tests/pretest" class="clickable">
+		<g id="sign_upper">
+			<radialGradient id="SVGID_87_" cx="1142.0723" cy="506.3945" r="119.3966" gradientTransform="matrix(1.2515 0 0 -1.2601 168.5491 1401.0791)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#DC8971"/>
 				<stop  offset="0.0629" style="stop-color:#DC8970"/>
 				<stop  offset="0.4255" style="stop-color:#DC7D5B"/>
@@ -2021,7 +2033,14 @@
 					c6.68,0,12.115,5.475,12.115,12.21v32.489C1796.357,785.945,1790.922,791.418,1784.242,791.418z M1444.906,737.229
 					l-33.878,23.116l33.878,28.36h339.336c5.193,0,9.421-4.26,9.421-9.492v-32.489c0-5.237-4.228-9.495-9.421-9.495H1444.906z"/>
 			</g>
+			<!-- TODO insert new link -->
+			<g id="Pre-test_text">
+			
+					<image overflow="visible" enable-background="new    " width="1144" height="472" xlink:href="../pre-test.png"  transform="matrix(0.2161 0 0 0.2176 1496.1367 714.6953)">
+				</image>
+			</g>
 		</g>
+		</a>
 		
 			<linearGradient id="SVGID_88_" gradientUnits="userSpaceOnUse" x1="1393.2568" y1="255.2886" x2="1383.5902" y2="249.7075" gradientTransform="matrix(1.9625 0.0051 -0.0051 -1.4604 -1115.6191 1387.3229)">
 			<stop  offset="0" style="stop-color:#808080"/>
@@ -2056,22 +2075,8 @@
 			
 				<ellipse display="inline" opacity="0.48" fill="url(#SVGID_89_)" enable-background="new    " cx="1639.605" cy="1080.441" rx="15.094" ry="3.133"/>
 		</g>
-		<!-- TODO insert new link -->
-		<a xlink:href="/posttest" class="clickable">
-			<g id="Post-test_text">
-			
-					<image overflow="visible" enable-background="new    " width="1144" height="472" xlink:href="../post-test.png"  transform="matrix(0.2386 0 0 0.2402 1468.8867 812.1162)">
-				</image>
-			</g>
-		</a>
-		<!-- TODO insert new link -->
-		<a xlink:href="/pretest" class="clickable">
-			<g id="Pre-test_text">
-			
-					<image overflow="visible" enable-background="new    " width="1144" height="472" xlink:href="../pre-test.png"  transform="matrix(0.2161 0 0 0.2176 1496.1367 714.6953)">
-				</image>
-			</g>
-		</a>
+		
+		
 	</g>
 	<!-- TODO insert new link here -->
 	<a xlink:href="/programs" class="clickable"> 
