@@ -50,7 +50,10 @@ function Navbar() {
           <NavbarButton title="Home">
             <HomeIcon className="h-10 w-10" />
           </NavbarButton>
-          <NavbarButton title="Webinars">
+          <NavbarButton
+            title="Webinars"
+            link="https://up-edu.zoom.us/webinar/register/WN_U1lr1cATTrCfEpeRPdUPvg"
+          >
             <VideoCameraIcon className="h-10 w-10" />
           </NavbarButton>
           <NavbarButton title="Tests">
@@ -59,10 +62,13 @@ function Navbar() {
           <NavbarButton title="Sponsors" link="/sponsors">
             <UserGroupIcon className="h-10 w-10" />
           </NavbarButton>
-          <NavbarButton title="Program">
+          <NavbarButton
+            title="Program"
+            link="https://drive.google.com/file/d/1tuwBQl7yD2AAw0pyVcnTyX_y4h_K6H6p/view?usp=sharing"
+          >
             <NewspaperIcon className="h-10 w-10" />
           </NavbarButton>
-          <NavbarButton title="Contacts">
+          <NavbarButton title="Contacts" link="/contacts">
             <PhoneIcon className="h-10 w-10" />
           </NavbarButton>
         </div>

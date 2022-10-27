@@ -1702,7 +1702,7 @@
 				<path fill="url(#SVGID_60_)" d="M346.791,687.48l-10.521-1.643c0,0,0,0-13.651,0.535l-3.795-0.186l-5.981,1.291
 					c0,0,1.106,1.343,14.808,1.343C341.352,688.822,346.791,687.48,346.791,687.48z"/>
 			</g>
-	<a xlink:href="/webinar" class="clickable">
+	<a xlink:href="https://up-edu.zoom.us/webinar/register/WN_U1lr1cATTrCfEpeRPdUPvg" class="clickable">
 			<g id="Zoomable_1_">
 		
 					<linearGradient id="green_rect_3_" gradientUnits="userSpaceOnUse" x1="-186.2222" y1="952.6475" x2="7.3209" y2="687.7003" gradientTransform="matrix(1 0 0 -1 564 1315)">
@@ -1991,7 +1991,7 @@
 			</image>
 		</g>
 			<!-- included in posttest -->
-		<a xlink:href="/tests/posttest" class="clickable">
+		<a xlink:href="/tests" class="clickable">
 		<g id="sign_under">
 			
 				<radialGradient id="SVGID_86_" cx="1157.6602" cy="423.6025" r="119.3971" gradientTransform="matrix(1.2515 0 0 -1.2601 168.5491 1401.0791)" gradientUnits="userSpaceOnUse">
@@ -2018,7 +2018,7 @@
 		</a>
 
 			<!-- included in pretest -->
-		<a xlink:href="tests/pretest" class="clickable">
+		<a xlink:href="https://forms.gle/L1kWJ71GVCYPHaUt9" class="clickable">
 		<g id="sign_upper">
 			<radialGradient id="SVGID_87_" cx="1142.0723" cy="506.3945" r="119.3966" gradientTransform="matrix(1.2515 0 0 -1.2601 168.5491 1401.0791)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#DC8971"/>
@@ -2079,7 +2079,7 @@
 		
 	</g>
 	<!-- TODO insert new link here -->
-	<a xlink:href="/programs" class="clickable"> 
+	<a xlink:href="https://drive.google.com/file/d/1tuwBQl7yD2AAw0pyVcnTyX_y4h_K6H6p/view?usp=sharing" class="clickable"> 
 	<g id="Programs">
 		<path fill="#666666" d="M366.749,784.825c6.666,1.693,7.038,8.54,7.136,16.141c0.116,8.978-6.65,16.342-15.114,16.452
 			c-8.463,0.109-15.418-7.079-15.535-16.056c-0.116-8.979,6.651-16.347,15.114-16.456"/>

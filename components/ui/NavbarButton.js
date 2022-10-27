@@ -17,7 +17,7 @@ function NavbarButton(props) {
   );
 }
 
-NavbarButton.propTypes = { link: PropTypes.string };
-NavbarButton.defaultProps = { link: "/" };
+NavbarButton.propTypes = { link: PropTypes.string, isNewTab: PropTypes.bool };
+NavbarButton.defaultProps = { link: "/", isNewTab: false };
 
 export default NavbarButton;

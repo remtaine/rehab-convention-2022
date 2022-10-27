@@ -8,7 +8,7 @@ import headerImage from "/public/Header.png";
 function Header() {
   return (
     <header id="top" className="w-full overflow-hidden relative z-20">
-      <div className="h-20 xs:h-30 sm:h-40 md:h-50 lg:h-60 xl:h-70">
+      <div className="h-20 xs:h-32 sm:h-40 md:h-52 lg:h-60 xl:h-72">
         <Image
           src={headerImage}
           alt="header"
