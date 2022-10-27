@@ -56,7 +56,7 @@ function Navbar() {
           >
             <VideoCameraIcon className="h-10 w-10" />
           </NavbarButton>
-          <NavbarButton title="Tests">
+          <NavbarButton title="Tests" link="/tests">
             <PencilIcon className="h-10 w-10" />
           </NavbarButton>
           <NavbarButton title="Sponsors" link="/sponsors">
