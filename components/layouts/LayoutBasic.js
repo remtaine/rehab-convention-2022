@@ -6,7 +6,7 @@ import Header from "../Header";
 
 function LayoutBasic(props) {
   return (
-    <div className="min-h-screen ">
+    <div className="min-h-screen font-inter">
       <Header />
       {/* header heights are "h-20 xs:h-30 sm:h-40 md:h-50 lg:h-60 xl:h-70" */}
       <main className="bg-fem-200 min-h-[calc(100vh-12rem)] xs:min-h-[calc(100vh-15rem)] sm:min-h-[calc(100vh-17rem)] md:min-h-[calc(100vh-20rem)] lg:min-h-[calc(100vh-22rem)] xl:min-h-[calc(100vh-25rem)] shadow-inner flex items-center justify-center">
