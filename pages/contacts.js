@@ -28,7 +28,7 @@ function contacts() {
         />
       </div>
       <section className="h-fit max-w-[calc(100vw-2rem)] w-fit px-12 py-6 shadow bg-fem-300 rounded-xl mt-6">
-        <ul className="flex flex-col">
+        <ul className="flex flex-col gap-1">
           <li className="">
             <span className="font-bold">Website: </span>
             <Link href="http://www.pghrehabmed.com" className="">
