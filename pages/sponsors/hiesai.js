@@ -7,7 +7,11 @@ function hiEsai(props) {
   return (
     <LayoutSponsors>
       {/* TODO make props for virtual booth image */}
-      <VirtualBooth title="Hi Esai" boothImage={boothImage} />
+      <VirtualBooth
+        title="Hi Esai"
+        boothImage={boothImage}
+        link="https://docs.google.com/forms/d/e/1FAIpQLSdCaU3JS2kjWhjw4TlicEsbxJ86OSVRetp7BITSnzMi-QrCjw/viewform?usp=sharing"
+      />
     </LayoutSponsors>
   );
 }

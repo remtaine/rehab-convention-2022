@@ -28,7 +28,7 @@ import logoMedichem from "/public/website sponsor logos/9_Medichem.png";
 
 function SponsorCloud() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <h2 className="w-full portrait:text-4xl text-5xl font-semibold col-span-1 sm:col-span-2 lg:col-span-3 text-center">
         Our Sponsors
       </h2>

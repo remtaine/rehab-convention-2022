@@ -7,7 +7,11 @@ function taisho(props) {
   return (
     <LayoutSponsors>
       {/* TODO make props for virtual booth image */}
-      <VirtualBooth title="Taisho" boothImage={boothImage} />
+      <VirtualBooth
+        title="Taisho"
+        boothImage={boothImage}
+        link="https://docs.google.com/forms/d/e/1FAIpQLSdMMORObtR58JaQ4ZR42MNrg0O_hh3Iv51SJ0ZDPhKOEIqvuQ/viewform?usp=sharing"
+      />
     </LayoutSponsors>
   );
 }

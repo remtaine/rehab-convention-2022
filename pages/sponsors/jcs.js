@@ -7,7 +7,11 @@ function jcs(props) {
   return (
     <LayoutSponsors>
       {/* TODO make props for virtual booth image */}
-      <VirtualBooth title="JCS" boothImage={boothImage} />
+      <VirtualBooth
+        title="JCS"
+        boothImage={boothImage}
+        link="https://docs.google.com/forms/d/e/1FAIpQLSejCbUznxyYeezaH-eoUs1iP8ro3UvYVBGwChOfv0H8Bd-FGg/viewform?usp=sharing"
+      />
     </LayoutSponsors>
   );
 }

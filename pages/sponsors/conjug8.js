@@ -7,7 +7,11 @@ function conjug8(props) {
   return (
     <LayoutSponsors>
       {/* TODO make props for virtual booth image */}
-      <VirtualBooth title="Conjug8" boothImage={boothImage} />
+      <VirtualBooth
+        title="Conjug8"
+        boothImage={boothImage}
+        link="https://docs.google.com/forms/d/e/1FAIpQLSeTxoqjpFRaW9Awjp4brUKbKM0qciRnKPN2qNs5uGBhmUBgLQ/viewform?usp=sharing"
+      />
     </LayoutSponsors>
   );
 }

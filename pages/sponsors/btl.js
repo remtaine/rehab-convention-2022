@@ -11,7 +11,11 @@ function btl(props) {
         <title>BTL | 22nd PGH Rehab Postgrad</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <VirtualBooth title="BTL" boothImage={boothImage} />
+      <VirtualBooth
+        title="BTL"
+        boothImage={boothImage}
+        link="https://docs.google.com/forms/d/e/1FAIpQLSdEK9AAWfCjrroVNAPLaNl8psdkzamMUl_zMrpblBYLD9bPRQ/viewform?usp=sharing"
+      />
     </LayoutSponsors>
   );
 }
