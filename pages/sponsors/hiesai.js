@@ -13,7 +13,7 @@ function hiEsai(props) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <VirtualBooth
-        title="Hi Esai"
+        title="Hi Eisai"
         boothImage={boothImage}
         link="https://docs.google.com/forms/d/e/1FAIpQLSdCaU3JS2kjWhjw4TlicEsbxJ86OSVRetp7BITSnzMi-QrCjw/viewform?usp=sharing"
       />
