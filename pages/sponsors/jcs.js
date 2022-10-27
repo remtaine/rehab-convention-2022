@@ -2,11 +2,15 @@ import React from "react";
 import LayoutSponsors from "../../components/layouts/LayoutSponsors";
 import VirtualBooth from "../../components/VirtualBooth";
 import boothImage from "/public/booths/JCS.png";
+import Head from "next/head";
 
 function jcs(props) {
   return (
     <LayoutSponsors>
-      {/* TODO make props for virtual booth image */}
+      <Head>
+        <title>JCS | 22nd PGH Rehab Postgrad</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <VirtualBooth
         title="JCS"
         boothImage={boothImage}

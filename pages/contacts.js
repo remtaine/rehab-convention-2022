@@ -1,10 +1,15 @@
 import React from "react";
 import LayoutBasic from "../components/layouts/LayoutBasic";
 import Link from "next/link";
+import Head from "next/head";
 
 function contacts() {
   return (
     <LayoutBasic>
+      <Head>
+        <title>Contact Details | 22nd PGH Rehab Postgrad</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <section className="h-fit max-w-[calc(100vw-2rem)] w-fit p-12 shadow bg-fem-300 rounded-xl">
         <h1 className="text-3xl font-bold mb-4 ">Contact Details</h1>
         <ul className="flex flex-col gap-2">

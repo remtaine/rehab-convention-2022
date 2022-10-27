@@ -14,7 +14,7 @@ function VirtualBooth(props) {
         </h1>
         <Image
           src={props.boothImage}
-          alt="header"
+          alt="LOADING"
           objectFit="cover"
           quality={100}
         />
@@ -29,7 +29,7 @@ function VirtualBooth(props) {
         </a>
       </div>
       <Link href={props.link}>
-        <a className="font-semibold duration-300 hover:underline text-xl mx-auto">
+        <a className="font-semibold duration-300 text-xl mx-auto bg-fem-300 mt-2 p-2 shadow-md hover:shadow-lg hover:-translate-y-1 rounded">
           Register for this booth
         </a>
       </Link>

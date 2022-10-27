@@ -53,6 +53,7 @@ function Navbar() {
           <NavbarButton
             title="Webinars"
             link="https://up-edu.zoom.us/webinar/register/WN_U1lr1cATTrCfEpeRPdUPvg"
+            target="_blank"
           >
             <VideoCameraIcon className="h-10 w-10" />
           </NavbarButton>
@@ -65,6 +66,7 @@ function Navbar() {
           <NavbarButton
             title="Program"
             link="https://drive.google.com/file/d/1tuwBQl7yD2AAw0pyVcnTyX_y4h_K6H6p/view?usp=sharing"
+            target="_blank"
           >
             <NewspaperIcon className="h-10 w-10" />
           </NavbarButton>
