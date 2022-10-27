@@ -12,7 +12,7 @@
 ]>
 <svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="44 0 1876 1080"  preserveAspectRatio="xMidYMid slice"  enable-background="new 0 0 1920 1080" xml:space="preserve">
+	 viewBox="44 0 1876 1080"  preserveAspectRatio="xMidYMin slice"  enable-background="new 0 0 1920 1080" xml:space="preserve">
 <metadata>
 	<sfw  xmlns="&ns_sfw;">
 		<slices></slices>
@@ -1984,7 +1984,7 @@
 		<polygon fill="#F2F2F2" points="102.749,665.649 135.468,682.315 147.282,680.144 116.086,664.639 		"/>
 		<polygon fill="#F2F2F2" points="755.422,956.217 880.544,999.176 915.91,972.97 790.936,938.249 		"/>
 	</g>
-	<g id="Pre-Test__x26__Post-Test_Post">
+	<g id="Pre-Test__x26__Post-Test_Post"  transform="translate(0, -20)">
 		<g>
 			
 				<image overflow="visible" enable-background="new    " width="26" height="451" xlink:href="223229A87FBAB6C6.png"  transform="matrix(1 0 0 1 1595 668)">
@@ -2080,7 +2080,7 @@
 	</g>
 	<!-- TODO insert new link here -->
 	<a xlink:href="https://drive.google.com/file/d/1tuwBQl7yD2AAw0pyVcnTyX_y4h_K6H6p/view?usp=sharing" class="clickable" target="_blank"> 
-	<g id="Programs">
+	<g id="Programs"  transform="translate(0, -60)">
 		<path fill="#666666" d="M366.749,784.825c6.666,1.693,7.038,8.54,7.136,16.141c0.116,8.978-6.65,16.342-15.114,16.452
 			c-8.463,0.109-15.418-7.079-15.535-16.056c-0.116-8.979,6.651-16.347,15.114-16.456"/>
 		<path fill="#B3B3B3" d="M365.878,784.81c8.463-0.109,15.418,7.081,15.535,16.06c0.116,8.977-6.651,16.343-15.114,16.452
