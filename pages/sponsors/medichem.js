@@ -11,7 +11,11 @@ function medichem(props) {
         <title>Medichem | 22nd PGH Rehab Postgrad</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <VirtualBooth title="Medichem" boothImage={boothImage} link="#" />
+      <VirtualBooth
+        title="Medichem"
+        boothImage={boothImage}
+        link="https://docs.google.com/forms/d/e/1FAIpQLSfpmepdJxM5DKCGIEo5x5mvECNClH_xb0mv5VhkI_3YlVFBig/viewform?usp=sharing"
+      />
     </LayoutSponsors>
   );
 }
