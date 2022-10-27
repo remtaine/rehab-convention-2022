@@ -29,7 +29,10 @@ function VirtualBooth(props) {
         </a>
       </div>
       <Link href={props.link}>
-        <a className="font-semibold duration-300 text-xl mx-auto bg-fem-300 mt-2 p-2 shadow-md hover:shadow-lg hover:-translate-y-1 rounded">
+        <a
+          target="_blank"
+          className="font-semibold duration-300 text-xl mx-auto bg-fem-300 mt-2 p-2 shadow-md hover:shadow-lg hover:-translate-y-1 rounded"
+        >
           Register for this booth
         </a>
       </Link>
