@@ -7,7 +7,7 @@ import logoBTL from "/public/BTL_TECHNICAL_small.png";
 function SponsorCloudItem(props) {
   return (
     <Link href={props.link}>
-      <a className="group flex flex-col gap-6 bg-neutral-100 px-6 pt-6 pb-4 items-center justify-center rounded-lg shadow-md portrait:h-80 h-72">
+      <a className="group flex flex-col gap-6 bg-transparent items-center justify-center rounded-lg">
         {/* <div className=""> */}
         <Image
           src={props.logo}
@@ -18,9 +18,9 @@ function SponsorCloudItem(props) {
           className="max-w-screen  flex justify-center items-center overflow-hidden"
         />
         {/* </div> */}
-        <h3 className="group-hover:underline duration-300 text-3xl">
+        {/* <h3 className="group-hover:underline duration-300 text-3xl">
           {props.title}
-        </h3>
+        </h3> */}
       </a>
     </Link>
   );

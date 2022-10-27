@@ -13,7 +13,7 @@ function VirtualBooth(props) {
           {props.title}
         </h1>
         <Image
-          src={virtualBoothImage}
+          src={props.boothImage}
           alt="header"
           objectFit="cover"
           quality={100}
@@ -28,7 +28,7 @@ function VirtualBooth(props) {
           Freepik{" "}
         </a>
       </div>
-      <Link href="/contacts">
+      <Link href={props.link}>
         <a className="font-semibold duration-300 hover:underline text-xl mx-auto">
           Register for this booth
         </a>
@@ -39,6 +39,10 @@ function VirtualBooth(props) {
   );
 }
 
-VirtualBooth.defaultProps = { title: "Viatris" };
+VirtualBooth.defaultProps = {
+  title: "Viatris",
+  boothImage: virtualBoothImage,
+  link: "#",
+};
 
 export default VirtualBooth;
