@@ -4,7 +4,7 @@ import VirtualBooth from "../../components/VirtualBooth";
 import boothImage from "/public/booths/Hi_Eisai.png";
 import Head from "next/head";
 
-function hiEsai(props) {
+function hiEisai(props) {
   return (
     <LayoutSponsors>
       {/* TODO make props for virtual booth image */}
@@ -21,4 +21,4 @@ function hiEsai(props) {
   );
 }
 
-export default hiEsai;
+export default hiEisai;

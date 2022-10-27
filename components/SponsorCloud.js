@@ -78,8 +78,8 @@ function SponsorCloud() {
         />
         <SponsorCloudItem
           logo={logoHiEsai}
-          title="Hi Esai"
-          link="/sponsors/hiesai"
+          title="Hi Eisai"
+          link="/sponsors/hieisai"
         />
         <SponsorCloudItem logo={logoBTL} title="BTL" link="/sponsors/btl" />
         <SponsorCloudItem
