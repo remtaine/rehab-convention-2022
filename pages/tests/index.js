@@ -16,7 +16,7 @@ function tests() {
         <h2 className="text-xl font-bold my-2">October 29</h2>
         <ul className="flex flex-col gap-2">
           <li className="">
-            <span className="font-bold">pre-test: </span>
+            <span className="font-bold">Pre-test: </span>
             <Link href="https://forms.gle/L1kWJ71GVCYPHaUt9" className="">
               <a className="break-words hover:underline">
                 https://forms.gle/L1kWJ71GVCYPHaUt9
@@ -24,7 +24,7 @@ function tests() {
             </Link>
           </li>
           <li className="">
-            <span className="font-bold">post-test: </span>
+            <span className="font-bold">Post-test: </span>
             <Link href="#" className="">
               <a className="break-words hover:underline">TBA</a>
             </Link>
@@ -34,13 +34,13 @@ function tests() {
         <h2 className="text-xl mt-6 mb-2 font-bold">November 5</h2>
         <ul className="flex flex-col gap-2">
           <li className="">
-            <span className="font-bold">pre-test: </span>
+            <span className="font-bold">Pre-test: </span>
             <Link href="#" className="">
               <a className="break-words hover:underline">TBA</a>
             </Link>
           </li>
           <li className="">
-            <span className="font-bold">pre-test: </span>
+            <span className="font-bold">Post-test: </span>
             <Link href="#" className="">
               <a className="break-words hover:underline">TBA</a>
             </Link>
