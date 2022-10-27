@@ -16,7 +16,7 @@ import {
 import NavbarButton from "./ui/NavbarButton";
 
 function Navbar() {
-  const [isMenuActivated, setMenuActivated] = useState(false);
+  const [isMenuActivated, setMenuActivated] = useState(true);
   return (
     <div className="flex items-center justify-end landscape:justify-center z-50 fixed bottom-0 w-screen pointer-events-none">
       <div className="landscape:bg-fem-300  w-fit p-4 rounded-tl-lg rounded-tr-lg landscape:h-16 landscape:shadow-xl flex landscape:flex-row flex-col-reverse pointer-events-auto">
