@@ -24,43 +24,70 @@ import logoTaisho from "/public/website sponsor logos/6_Taisho.png";
 import logoHiEsai from "/public/website sponsor logos/7_Hi_Esai.png";
 import logoBTL from "/public/website sponsor logos/8_BTL.png";
 import logoMedichem from "/public/website sponsor logos/9_Medichem.png";
+
+import circles from "/public/circles.png";
 // import logoUnilab from "XXX";
 
 function SponsorCloud() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      <h2 className="w-full portrait:text-4xl text-5xl font-semibold col-span-1 sm:col-span-2 lg:col-span-3 text-center">
-        Our Sponsors
+    <div className="">
+      <h2 className="w-full portrait:text-4xl text-5xl font-semibold text-center uppercase">
+        The Dream Team Sponsors
       </h2>
-      <SponsorCloudItem
-        logo={logoConjug8}
-        title="Conjug8"
-        link="/sponsors/conjug8"
-      />
-      <SponsorCloudItem
-        logo={logoViatris}
-        title="Viatris"
-        link="/sponsors/viatris"
-      />
-      <SponsorCloudItem logo={logoJCS} title="JCS" link="/sponsors/jcs" />
-      <SponsorCloudItem logo={logoInova} title="Inova" link="/sponsors/inova" />
-      <SponsorCloudItem logo={logoTobie} title="Tobie" link="/sponsors/tobie" />
-      <SponsorCloudItem
-        logo={logoTaisho}
-        title="Taisho"
-        link="/sponsors/taisho"
-      />
-      <SponsorCloudItem
-        logo={logoHiEsai}
-        title="Hi Esai"
-        link="/sponsors/hiesai"
-      />
-      <SponsorCloudItem logo={logoBTL} title="BTL" link="/sponsors/btl" />
-      <SponsorCloudItem
-        logo={logoMedichem}
-        title="Medichem"
-        link="/sponsors/medichem"
-      />
+      <h3 className=" py-1 px-2 w-full portrait:text-lg text-xl text-center max-w-fit mx-auto">
+        Thank you for helping us make this event a success!
+      </h3>
+      <div className="flex justify-center">
+        <Image
+          src={circles}
+          alt={"Traffic lights"}
+          layout="fixed"
+          width="150px"
+          height="90px"
+          // objectFit="contain"
+          quality={100}
+          className="mx-auto"
+        />
+      </div>
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
+        <SponsorCloudItem
+          logo={logoConjug8}
+          title="Conjug8"
+          link="/sponsors/conjug8"
+        />
+        <SponsorCloudItem
+          logo={logoViatris}
+          title="Viatris"
+          link="/sponsors/viatris"
+        />
+        <SponsorCloudItem logo={logoJCS} title="JCS" link="/sponsors/jcs" />
+        <SponsorCloudItem
+          logo={logoInova}
+          title="Inova"
+          link="/sponsors/inova"
+        />
+        <SponsorCloudItem
+          logo={logoTobie}
+          title="Tobie"
+          link="/sponsors/tobie"
+        />
+        <SponsorCloudItem
+          logo={logoTaisho}
+          title="Taisho"
+          link="/sponsors/taisho"
+        />
+        <SponsorCloudItem
+          logo={logoHiEsai}
+          title="Hi Esai"
+          link="/sponsors/hiesai"
+        />
+        <SponsorCloudItem logo={logoBTL} title="BTL" link="/sponsors/btl" />
+        <SponsorCloudItem
+          logo={logoMedichem}
+          title="Medichem"
+          link="/sponsors/medichem"
+        />
+      </section>
       {/* <SponsorCloudItem
         logo={logoUnilab}
         title="Unilab"
