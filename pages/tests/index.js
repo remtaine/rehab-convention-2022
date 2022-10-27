@@ -25,7 +25,7 @@ function tests() {
         />
       </div>
       <section className="h-fit max-w-[calc(100vw-2rem)] w-fit px-12 py-6 shadow bg-fem-300 rounded-xl mt-6">
-        <h2 className="text-xl font-bold my-2">October 29</h2>
+        {/* <h2 className="text-xl font-bold my-2">October 29</h2> */}
         <ul className="flex flex-col gap-1">
           <li className="">
             <span className="font-bold">Pre-test: </span>
@@ -43,7 +43,7 @@ function tests() {
           </li>
         </ul>
 
-        <h2 className="text-xl mt-6 mb-2 font-bold">November 5</h2>
+        {/* <h2 className="text-xl mt-6 mb-2 font-bold">November 5</h2>
         <ul className="flex flex-col gap-1">
           <li className="">
             <span className="font-bold">Pre-test: </span>
@@ -57,7 +57,7 @@ function tests() {
               <a className="break-words hover:underline">TBA</a>
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </section>
     </LayoutBasic>
   );
