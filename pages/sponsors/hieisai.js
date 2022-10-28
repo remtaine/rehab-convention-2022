@@ -16,6 +16,7 @@ function hiEisai(props) {
         title="Hi Eisai"
         boothImage={boothImage}
         link="https://docs.google.com/forms/d/e/1FAIpQLSdCaU3JS2kjWhjw4TlicEsbxJ86OSVRetp7BITSnzMi-QrCjw/viewform?usp=sharing"
+        website="https://hieisai.com.ph/"
       />
     </LayoutSponsors>
   );

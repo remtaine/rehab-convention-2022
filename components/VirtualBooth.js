@@ -33,19 +33,35 @@ function VirtualBooth(props) {
           target="_blank"
           className="font-semibold duration-300 text-xl mx-auto bg-fem-300 mt-2 p-2 shadow-md hover:shadow-lg hover:-translate-y-1 rounded"
         >
-          Register for this booth
+          Register for their booth
         </a>
       </Link>
+      <Link href={props.website}>
+        <a
+          target="_blank"
+          className="font-semibold duration-300 text-xl mx-auto bg-fem-400 text-fem-700 mt-2 p-2 shadow-md hover:shadow-lg hover:-translate-y-1 rounded"
+        >
+          Visit {props.title} website
+        </a>
+      </Link>
+
       {/* TAKE NOTE THIS IS A DIVIDER!!! */}
       <div className="w-full h-[0.05rem] bg-fem-600/10 md:mx-40 my-8"></div>
     </div>
   );
 }
 
+VirtualBooth.PropTypes = {
+  title: PropTypes.string,
+  link: PropTypes.string,
+  website: PropTypes.string,
+};
+
 VirtualBooth.defaultProps = {
   title: "Viatris",
   boothImage: virtualBoothImage,
   link: "#",
+  website: "/",
 };
 
 export default VirtualBooth;

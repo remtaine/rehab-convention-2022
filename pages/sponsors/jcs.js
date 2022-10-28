@@ -15,6 +15,7 @@ function jcs(props) {
         title="JCS"
         boothImage={boothImage}
         link="https://docs.google.com/forms/d/e/1FAIpQLSejCbUznxyYeezaH-eoUs1iP8ro3UvYVBGwChOfv0H8Bd-FGg/viewform?usp=sharing"
+        website="https://jcspharmaceuticals.com/"
       />
     </LayoutSponsors>
   );

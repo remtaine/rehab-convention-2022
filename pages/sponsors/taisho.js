@@ -15,6 +15,7 @@ function taisho(props) {
         title="Taisho"
         boothImage={boothImage}
         link="https://docs.google.com/forms/d/e/1FAIpQLSdMMORObtR58JaQ4ZR42MNrg0O_hh3Iv51SJ0ZDPhKOEIqvuQ/viewform?usp=sharing"
+        website="https://www.taisho.co.jp/global/our_products/"
       />
     </LayoutSponsors>
   );

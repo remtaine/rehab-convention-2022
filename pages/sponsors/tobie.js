@@ -15,6 +15,7 @@ function tobie(props) {
         title="Tobie"
         boothImage={boothImage}
         link="https://docs.google.com/forms/d/e/1FAIpQLSeR6vxJ6xsl6Ri1dNNjYAEnzPn70qZW7nCb9kvaGbiXTGAk0w/viewform?usp=sharing"
+        website="#"
       />
     </LayoutSponsors>
   );

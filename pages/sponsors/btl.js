@@ -15,6 +15,7 @@ function btl(props) {
         title="BTL"
         boothImage={boothImage}
         link="https://docs.google.com/forms/d/e/1FAIpQLSdEK9AAWfCjrroVNAPLaNl8psdkzamMUl_zMrpblBYLD9bPRQ/viewform?usp=sharing"
+        website="https://www.btlnet.com/"
       />
     </LayoutSponsors>
   );

@@ -15,6 +15,7 @@ function inova(props) {
         title="Inova"
         boothImage={boothImage}
         link="https://docs.google.com/forms/d/e/1FAIpQLSdp1eqQD_Um9vRXeRqHZhWuY0MQoayT5XXZavh3YTsh_KUWdw/viewform?usp=sharing"
+        website="https://inovapharma.com/"
       />
     </LayoutSponsors>
   );

@@ -15,6 +15,7 @@ function viatris(props) {
         title="Viatris"
         boothImage={boothImage}
         link="https://docs.google.com/forms/d/e/1FAIpQLScS9v-MDmnCS9atPpZpq4LITN3JKXSD2ML11aM_BYCaS2wS6Q/viewform?usp=sharing"
+        website="https://www.viatris.com/en"
       />
     </LayoutSponsors>
   );

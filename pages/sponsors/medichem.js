@@ -15,6 +15,7 @@ function medichem(props) {
         title="Medichem"
         boothImage={boothImage}
         link="https://docs.google.com/forms/d/e/1FAIpQLSfpmepdJxM5DKCGIEo5x5mvECNClH_xb0mv5VhkI_3YlVFBig/viewform?usp=sharing"
+        website="https://www.unilab.com.ph/our-subsidiaries"
       />
     </LayoutSponsors>
   );
