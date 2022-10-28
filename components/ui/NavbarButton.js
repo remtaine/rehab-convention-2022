@@ -14,7 +14,7 @@ function NavbarButton(props) {
         </div>
         <h2
           className={
-            "text-fem-600 text-lg font-medium block portrait:bg-fem-300 portrait:rounded portrait:px-1 duration-200 delay-[350ms]" +
+            "text-fem-600 text-lg font-medium block portrait:bg-fem-300 portrait:rounded portrait:px-1 duration-200 delay-[400ms]" +
             " " +
             (props.isActivated ? "portrait:opacity-100" : "portrait:opacity-0")
           }
