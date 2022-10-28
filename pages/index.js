@@ -20,7 +20,7 @@ export default function Home() {
       <div className="w-screen h-screen">
         <FrontImage style={imageStyle} />
       </div>
-      <Navbar />
+      <Navbar isActivated={true} />
     </div>
   );
 }

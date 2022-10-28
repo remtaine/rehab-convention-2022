@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
+
 import {
   HomeIcon,
   VideoCameraIcon,
@@ -15,8 +17,8 @@ import {
 
 import NavbarButton from "./ui/NavbarButton";
 
-function Navbar() {
-  const [isMenuActivated, setMenuActivated] = useState(true);
+function Navbar(props) {
+  const [isMenuActivated, setMenuActivated] = useState(props.isActivated);
   return (
     <div className="flex items-center justify-end landscape:justify-center z-50 fixed bottom-0 w-screen pointer-events-none">
       <div className="landscape:bg-fem-300  w-fit p-4 rounded-tl-lg rounded-tr-lg landscape:h-16 landscape:shadow-xl flex portrait:items-end landscape:flex-row flex-col-reverse pointer-events-auto">
@@ -92,5 +94,12 @@ function Navbar() {
     </div>
   );
 }
+
+Navbar.propTypes = {
+  isActivated: PropTypes.bool,
+};
+Navbar.defaultProps = {
+  isActivated: false,
+};
 
 export default Navbar;
