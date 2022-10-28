@@ -45,7 +45,7 @@ function contacts() {
           </li>
           <li className="">
             <span className="font-bold">Facebook: </span>
-            <Link href="facebook.com/PGHRehabMed" className="">
+            <Link href="https://www.facebook.com/PGHRehabMed" className="">
               <a className="break-words hover:underline">
                 facebook.com/PGHRehabMed
               </a>
