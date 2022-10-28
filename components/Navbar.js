@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
+
 import {
   HomeIcon,
   VideoCameraIcon,
@@ -15,11 +17,11 @@ import {
 
 import NavbarButton from "./ui/NavbarButton";
 
-function Navbar() {
-  const [isMenuActivated, setMenuActivated] = useState(true);
+function Navbar(props) {
+  const [isMenuActivated, setMenuActivated] = useState(props.isActivated);
   return (
     <div className="flex items-center justify-end landscape:justify-center z-50 fixed bottom-0 w-screen pointer-events-none">
-      <div className="landscape:bg-fem-300  w-fit p-4 rounded-tl-lg rounded-tr-lg landscape:h-16 landscape:shadow-xl flex landscape:flex-row flex-col-reverse pointer-events-auto">
+      <div className="landscape:bg-fem-300  w-fit p-4 rounded-tl-lg rounded-tr-lg landscape:h-16 landscape:shadow-xl flex portrait:items-end landscape:flex-row flex-col-reverse pointer-events-auto">
         <button
           className="landscape:hidden "
           onClick={() => {
@@ -42,35 +44,49 @@ function Navbar() {
         </button>
         <div
           className={
-            "flex landscape:flex-row flex-col duration-500 overflow-hidden landscape:overflow-visible landscape:h-fit" +
+            "flex landscape:flex-row flex-col items-end duration-500 overflow-hidden landscape:overflow-visible landscape:h-fit" +
             " " +
             (!isMenuActivated ? "h-0" : "h-[21.5rem]")
           }
         >
-          <NavbarButton title="Home">
+          <NavbarButton title="Home" isActivated={isMenuActivated}>
             <HomeIcon className="h-10 w-10" />
           </NavbarButton>
           <NavbarButton
             title="Webinars"
             link="https://up-edu.zoom.us/webinar/register/WN_U1lr1cATTrCfEpeRPdUPvg"
             target="_blank"
+            isActivated={isMenuActivated}
           >
             <VideoCameraIcon className="h-10 w-10" />
           </NavbarButton>
-          <NavbarButton title="Tests" link="/tests">
+          <NavbarButton
+            title="Tests"
+            link="/tests"
+            isActivated={isMenuActivated}
+          >
             <PencilIcon className="h-10 w-10" />
           </NavbarButton>
-          <NavbarButton title="Sponsors" link="/sponsors">
+          <NavbarButton
+            title="Sponsors"
+            link="/sponsors"
+            isActivated={isMenuActivated}
+          >
             <UserGroupIcon className="h-10 w-10" />
           </NavbarButton>
           <NavbarButton
             title="Program"
             link="https://drive.google.com/file/d/1tuwBQl7yD2AAw0pyVcnTyX_y4h_K6H6p/view?usp=sharing"
             target="_blank"
+            isActivated={isMenuActivated}
           >
             <NewspaperIcon className="h-10 w-10" />
           </NavbarButton>
-          <NavbarButton title="Contacts" link="/contacts">
+          <NavbarButton
+            title="Contacts"
+            link="/contacts"
+            isActivated={isMenuActivated}
+          >
             <PhoneIcon className="h-10 w-10" />
           </NavbarButton>
         </div>
@@ -78,5 +94,12 @@ function Navbar() {
     </div>
   );
 }
+
+Navbar.propTypes = {
+  isActivated: PropTypes.bool,
+};
+Navbar.defaultProps = {
+  isActivated: false,
+};
 
 export default Navbar;
