@@ -55,11 +55,7 @@ function SponsorCloud() {
           title="Conjug8"
           link="/sponsors/conjug8"
         />
-        <SponsorCloudItem
-          logo={logoViatris}
-          title="Viatris"
-          link="/sponsors/viatris"
-        />
+
         <SponsorCloudItem logo={logoJCS} title="JCS" link="/sponsors/jcs" />
         <SponsorCloudItem
           logo={logoInova}
@@ -70,6 +66,11 @@ function SponsorCloud() {
           logo={logoTobie}
           title="Tobie"
           link="/sponsors/tobie"
+        />
+        <SponsorCloudItem
+          logo={logoViatris}
+          title="Viatris"
+          link="/sponsors/viatris"
         />
         <SponsorCloudItem
           logo={logoTaisho}
