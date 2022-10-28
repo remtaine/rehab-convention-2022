@@ -49,7 +49,7 @@ function SponsorCloud() {
           className="mx-auto"
         />
       </div>
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
+      <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12">
         <SponsorCloudItem
           logo={logoConjug8}
           title="Conjug8"
