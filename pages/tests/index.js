@@ -29,7 +29,7 @@ function tests() {
         <ul className="flex flex-col gap-1">
           <li className="">
             <span className="font-bold">Pre-test: </span>
-            <Link href="https://forms.gle/L1kWJ71GVCYPHaUt9" className="">
+            <Link href="https://forms.gle/ExV5HAzntnbbAqRY9" className="">
               <a className="break-words hover:underline">
                 https://forms.gle/L1kWJ71GVCYPHaUt9
               </a>
