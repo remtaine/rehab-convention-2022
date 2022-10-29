@@ -30,7 +30,7 @@ function tests() {
           <li className="">
             <span className="font-bold">Pre-test: </span>
             <Link href="https://forms.gle/ExV5HAzntnbbAqRY9" className="">
-              <a className="break-words hover:underline">
+              <a className="break-words hover:underline" target="_blank">
                 https://forms.gle/L1kWJ71GVCYPHaUt9
               </a>
             </Link>
@@ -38,7 +38,7 @@ function tests() {
           <li className="">
             <span className="font-bold">Post-test: </span>
             <Link href="https://forms.gle/yAswzs7EkGdtdF3v9" className="">
-              <a className="break-words hover:underline">
+              <a className="break-words hover:underline" target="_blank">
                 https://forms.gle/yAswzs7EkGdtdF3v9
               </a>
             </Link>
