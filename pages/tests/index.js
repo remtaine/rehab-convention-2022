@@ -37,8 +37,10 @@ function tests() {
           </li>
           <li className="">
             <span className="font-bold">Post-test: </span>
-            <Link href="#" className="">
-              <a className="break-words hover:underline">TBA</a>
+            <Link href="https://forms.gle/yAswzs7EkGdtdF3v9" className="">
+              <a className="break-words hover:underline">
+                https://forms.gle/yAswzs7EkGdtdF3v9
+              </a>
             </Link>
           </li>
         </ul>
