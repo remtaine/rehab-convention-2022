@@ -54,8 +54,7 @@ function Navbar(props) {
           </NavbarButton>
           <NavbarButton
             title="Webinars"
-            link="https://up-edu.zoom.us/webinar/register/WN_U1lr1cATTrCfEpeRPdUPvg"
-            target="_blank"
+            link="/webinars"
             isActivated={isMenuActivated}
           >
             <VideoCameraIcon className="h-10 w-10" />
