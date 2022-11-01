@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import SponsorCloudItem from "./SponsorCloudItem";
+import CloudItem from "./CloudItem";
 
 // import logoBTL from "/public/BTL_TECHNICAL_small.png";
 // import logoConjug8 from "/public/Conjug8_MAJOR_Medium.png";
@@ -50,46 +50,34 @@ function SponsorCloud() {
         />
       </div>
       <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12">
-        <SponsorCloudItem
+        <CloudItem
           logo={logoConjug8}
           title="Conjug8"
           link="/sponsors/conjug8"
         />
 
-        <SponsorCloudItem logo={logoJCS} title="JCS" link="/sponsors/jcs" />
-        <SponsorCloudItem
-          logo={logoInova}
-          title="Inova"
-          link="/sponsors/inova"
-        />
-        <SponsorCloudItem
-          logo={logoTobie}
-          title="Tobie"
-          link="/sponsors/tobie"
-        />
-        <SponsorCloudItem
+        <CloudItem logo={logoJCS} title="JCS" link="/sponsors/jcs" />
+        <CloudItem logo={logoInova} title="Inova" link="/sponsors/inova" />
+        <CloudItem logo={logoTobie} title="Tobie" link="/sponsors/tobie" />
+        <CloudItem
           logo={logoViatris}
           title="Viatris"
           link="/sponsors/viatris"
         />
-        <SponsorCloudItem
-          logo={logoTaisho}
-          title="Taisho"
-          link="/sponsors/taisho"
-        />
-        <SponsorCloudItem
+        <CloudItem logo={logoTaisho} title="Taisho" link="/sponsors/taisho" />
+        <CloudItem
           logo={logoHiEsai}
           title="Hi Eisai"
           link="/sponsors/hieisai"
         />
-        <SponsorCloudItem logo={logoBTL} title="BTL" link="/sponsors/btl" />
-        <SponsorCloudItem
+        <CloudItem logo={logoBTL} title="BTL" link="/sponsors/btl" />
+        <CloudItem
           logo={logoMedichem}
           title="Medichem"
           link="/sponsors/medichem"
         />
       </section>
-      {/* <SponsorCloudItem
+      {/* <CloudItem
         logo={logoUnilab}
         title="Unilab"
         link="/sponsors/unilab"
