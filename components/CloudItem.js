@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logoBTL from "/public/BTL_TECHNICAL_small.png";
 
-function SponsorCloudItem(props) {
+function CloudItem(props) {
   return (
     <Link href={props.link}>
       <a className="">
@@ -26,6 +26,6 @@ function SponsorCloudItem(props) {
   );
 }
 
-SponsorCloudItem.defaultProps = { logo: logoBTL, title: "BTL", link: "/" };
+CloudItem.defaultProps = { logo: logoBTL, title: "BTL", link: "/" };
 
-export default SponsorCloudItem;
+export default CloudItem;
